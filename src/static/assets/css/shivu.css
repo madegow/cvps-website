@@ -1,0 +1,39 @@
+/* shivu added below snippet */
+
+.example1 {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+.example1 h3 {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: left;
+
+ /* Apply animation to this element */	
+ animation: example1 10s;
+}
+/* Move it (define the animation) */
+@keyframes example1 {
+ 0%   { 
+ transform: translateX(200%); 		
+ }
+ 100% { 
+ transform: translateX(0%); 
+ }
+}
+
+.thumbnails li {
+  position: relative;
+}
+.thumbcontainer {
+  background: #fff;
+  opacity: .9;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
