@@ -3,8 +3,6 @@ my first py
 '''
 #initialization
 from flask import Flask, render_template
-from django.shortcuts import render
-
 
 app = Flask(__name__)
 app.debug = True
