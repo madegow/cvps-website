@@ -41,7 +41,7 @@ def local_contact():
 
 @app.route('/sample')
 def sample():
-    return '<h1> Hello World! cvps-website</h1> <b/> <p> Click <a href="/welcome">here</a> to go welcome.</p>'
+    return '<h1> Hello World! this is cvps-website</h1> <b/> <p> Click <a href="/welcome">here</a> to go welcome.</p>'
 
 @app.route('/welcome')
 def welcome():
